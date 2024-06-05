@@ -53,11 +53,11 @@ export default function About() {
             <p className="text-sm md:text-base leading-loose text-justify text-white"> If its parent element is an ol, ul, or menu element, then the element is an item of the parent element&apos;s list, as defined for those elements. Otherwise, the list item has no defined list-related relationship to any other li element.</p>
             <Link to={"/services"} className="py-2 px-6 md:px-8 bg-transparent text-white border-2 border-white hover:bg-white hover:text-secondary rounded-md w-max backdrop-blur-md flex items-center gap-1"><MdEditCalendar /> Book Now </Link>
           </aside>
-          <aside className="flex-1 hidden lg:flex relative">
+          {/* <aside className="flex-1 hidden lg:flex relative">
             <img src={laundromat_screen1} alt="" className="absolute rounded-md h-cls
             11/12 w-1/2 top-1/2 -translate-y-1/2 object-cover object-center" />
             <img src={laundromat_screen2} alt="" className="absolute h-[110%] w-[55%] shad rounded-md top-1/2 -translate-y-1/2 right-0 object-cover object-center" />
-          </aside>
+          </aside> */}
         </div>
       </section>
       <section className="py-20 px-4">
